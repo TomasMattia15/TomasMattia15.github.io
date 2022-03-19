@@ -1,0 +1,257 @@
+body{
+    background-color: rgb(58, 57, 57);
+    margin: 0%;
+    font-family: Roboto,sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    color: white;
+
+}
+h1{
+    font-size: 3.5em;
+
+}
+h2{
+    font-size: 2.7em;
+}
+h3{
+    font-size: 2.0em;
+}
+p{
+    font-size: 1.25em;
+
+}
+ul{
+    list-style: none;
+}
+button{
+font-size: 1.5em;
+font-weight: bold;
+padding: 5px 15px;
+border-radius: 5px;
+border: 1px solid black;
+box-shadow: 2px 2px 10px black;
+color: black;
+background-color: rgb(235, 63, 63);
+
+}
+button:hover{
+    background-color: rgb(240, 120, 120);
+
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+header{
+    background-color: black
+}
+header .logo{
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 2.0em;
+    
+}
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+header nav{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(247, 56, 56)
+}
+header a:hover{
+    color: rgb(247, 132, 132);
+}
+#hero{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+
+background-color: rgb(36, 35, 35);
+background-image: url(./etiqueta-modified\ \(1\).jpg);
+
+}
+
+
+
+
+#hero .container {
+    
+    color:white ;
+  
+    
+}
+#oferta{
+    background-color: rgb(58, 57, 57)
+    
+
+}
+#oferta .container{
+    text-align: center;
+    padding: 100px 10px;
+    
+    
+    
+}
+#oferta h2{
+    color: white;
+}
+#oferta p{
+    margin: 30px 10px 10px 30px;
+    padding: 100px 10px;
+}
+
+#productos{
+    background-color: rgb(95, 93, 93);
+    
+}
+#productos .container
+{
+text-align: center;
+padding: 100px 10px;
+align-items: center;
+
+
+}
+#productos p{
+    display:block;
+    text-align: center;
+    align-items: center;
+    padding: 17px;
+    
+}
+#productos h2{
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#caracteristicas .container{
+   
+    padding: 100px 10px;
+text-align: center;
+align-items: center;
+
+}
+#caracteristicas li{
+    margin: 16px 0px ;
+    font-weight: bold;
+    align-items: center;
+   
+   
+}
+#ubicacion .container{
+    text-align: center;
+    padding: 100px 10px;
+    background-color: rgb(160, 159, 159);
+
+}
+#ubicaion .mapa{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+#ubicacion h2{
+    margin: 20px 10px 70px 10px;
+    color: black;
+}
+footer{
+    background-color: rgb(236, 235, 235);
+}
+footer p{
+    text-align: center;
+    margin: 0%;
+    padding: 15px;
+    color: black;
+
+}
+footer a{
+    color: black;
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (min-width:720px){
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header  .container{
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+
+    }
+
+    header nav{
+        flex-direction: row;
+        padding :0;
+        
+        
+        
+        
+        
+    }
+    #oferta p{
+
+text-align: center; 
+    
+    }
+    #productos .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    #productos h2{
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #productos p {
+        display: block;
+        text-align: center;
+    }
+    #productos .carta{
+        padding: 15px;
+    }
+}
